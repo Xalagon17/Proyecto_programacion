@@ -334,7 +334,7 @@ string* idred = &idred0;
    
 // Sacarla por pantalla
 
-    cout << "La dirección de la puerta de enlace es: " << *puertaenlaceptr << endl; 
+    cout << "La dirección de la puerta de enlace debería ser: " << *puertaenlaceptr << endl; 
 
     cout << endl;  
 
