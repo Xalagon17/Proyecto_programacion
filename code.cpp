@@ -366,7 +366,7 @@ switch(caso){
 
         system("ifconfig"); 
 
-        system(("tcpdump -i " + *puertaenlaceptr + " icmp").c_str());
+        system(("tcpdump icmp");
 
         break; 
 
@@ -380,7 +380,7 @@ switch(caso){
 
         cout<<"Esnifando..."<<endl; 
 
-         system(("tcpdump -i " + *puertaenlaceptr + " tcp port http").c_str());
+         system(("tcpdump tcp port http");
 
         break; 
 
@@ -394,7 +394,7 @@ switch(caso){
 
         cout<<"Esnifando..."<<endl; 
 
-         system(("tcpdump -i " + *puertaenlaceptr + " tcp").c_str());
+         system(("tcpdump tcp");
 
         break; 
 
