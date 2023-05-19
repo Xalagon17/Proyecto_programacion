@@ -6,6 +6,8 @@
 
 #include <sstream> 
 
+#include <cstdlib>
+
 using namespace std;  
 
 vector<int> divcadena(const string& string1, char delimitador) {
