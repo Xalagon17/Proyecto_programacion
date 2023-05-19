@@ -350,7 +350,7 @@ cout<<"¿En cual caso quieres abrir el tcpdump?"<<endl;
 
 cin>>caso; 
 
-//Depende de que numero sea sacar por pantalla su caso correspondiente con sus configuraciones correspondientes
+//Abre el tcpdump con su caso correspondiente
 
 switch(caso){ 
 
@@ -366,7 +366,7 @@ switch(caso){
 
         system("ifconfig"); 
 
-        system(("tcpdump icmp");
+        system("tcpdump icmp");
 
         break; 
 
@@ -380,7 +380,7 @@ switch(caso){
 
         cout<<"Esnifando..."<<endl; 
 
-         system(("tcpdump tcp port http");
+         system("tcpdump tcp port http");
 
         break; 
 
@@ -394,7 +394,7 @@ switch(caso){
 
         cout<<"Esnifando..."<<endl; 
 
-         system(("tcpdump tcp");
+         system("tcpdump tcp");
 
         break; 
 
